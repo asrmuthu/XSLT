@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root ID="one" OutputMedium="All">
+	<content>
+		<collection>
+			<data promotionid="1"/>
+			<data promotionid="2"/>
+			<data promotionid="3"/>
+		</collection>
+	</content>
+	<Header>
+		<Authors>
+			<Author ID="Au1" AffiliationIDS="Aff1" CorrespondingAffiliationID="Aff1">
+				<AuthorName>
+					<GivenName>Karthi</GivenName>
+					<FamilyName>kumar</FamilyName>
+				</AuthorName>
+				<Contact>
+					<Email>Karthi@gmail.com</Email>
+				</Contact>
+			</Author>
+			<Author ID="Au2" AffiliationIDS="Aff2">
+				<AuthorName>
+					<GivenName>Renu</GivenName>
+					<FamilyName>pavi</FamilyName>
+				</AuthorName>
+			</Author>
+		</Authors>
+	</Header>
+	<body>
+		<section ID="1">
+			<para>this is para1</para>
+		</section>
+		<section ID="2">
+			<para>para2</para>
+		</section>
+	</body>
+</Root>
