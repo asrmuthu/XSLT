@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<root>
+   <tag name="article">
+      <child name="meta"/>
+      <child name="head"/>
+      <child name="body"/>
+      <child name="tail"/>
+   </tag>
+   <tag name="meta">
+      <child name="jid"/>
+      <child name="aid"/>
+      <child name="pit"/>
+      <child name="doi"/>
+      <child name="vol"/>
+      <child name="subject"/>
+      <child name="received"/>
+      <child name="accept"/>
+      <child name="conversion"/>
+      <child name="customer"/>
+   </tag>
+   <tag name="jid"/>
+   <tag name="aid"/>
+   <tag name="pit"/>
+   <tag name="doi"/>
+   <tag name="vol"/>
+   <tag name="subject"/>
+   <tag name="received"/>
+   <tag name="accept"/>
+   <tag name="conversion"/>
+   <tag name="customer"/>
+   <tag name="head">
+      <child name="lrh"/>
+      <child name="rrh"/>
+      <child name="articletitle"/>
+      <child name="aug"/>
+      <child name="keywordsdefault"/>
+      <child name="authorcontribution"/>
+   </tag>
+   <tag name="lrh">
+      <child name="query"/>
+   </tag>
+   <tag name="query">
+      <child name="ins"/>
+      <child name="url"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="ins">
+      <child name="kwd"/>
+   </tag>
+   <tag name="rrh">
+      <child name="query"/>
+   </tag>
+   <tag name="url"/>
+   <tag name="linenumber"/>
+   <tag name="articletitle">
+      <child name="ins"/>
+      <child name="del"/>
+      <child name="query"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="del">
+      <child name="kwd"/>
+      <child name="i"/>
+   </tag>
+   <tag name="aug">
+      <child name="authors"/>
+      <child name="aff"/>
+      <child name="cor"/>
+      <child name="fneditedby"/>
+   </tag>
+   <tag name="authors">
+      <child name="query"/>
+      <child name="au"/>
+      <child name="x"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="au">
+      <child name="fnm"/>
+      <child name="x"/>
+      <child name="snm"/>
+      <child name="xref"/>
+      <child name="et-al"/>
+   </tag>
+   <tag name="fnm"/>
+   <tag name="x">
+      <child name="sup"/>
+      <child name="query"/>
+   </tag>
+   <tag name="snm"/>
+   <tag name="xref">
+      <child name="sup"/>
+   </tag>
+   <tag name="sup">
+      <child name="xref"/>
+   </tag>
+   <tag name="aff">
+      <child name="text"/>
+   </tag>
+   <tag name="text">
+      <child name="affnorg"/>
+      <child name="x"/>
+      <child name="affncity"/>
+      <child name="query"/>
+      <child name="affncountry"/>
+      <child name="linenumber"/>
+      <child name="e-address"/>
+      <child name="del"/>
+      <child name="xref"/>
+      <child name="ins"/>
+   </tag>
+   <tag name="affnorg"/>
+   <tag name="affncity"/>
+   <tag name="affncountry"/>
+   <tag name="cor">
+      <child name="label"/>
+      <child name="text"/>
+   </tag>
+   <tag name="label"/>
+   <tag name="e-address"/>
+   <tag name="fneditedby">
+      <child name="b"/>
+      <child name="url"/>
+      <child name="del"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="b"/>
+   <tag name="keywordsdefault">
+      <child name="query"/>
+      <child name="st"/>
+      <child name="x"/>
+      <child name="kwd"/>
+      <child name="ins"/>
+      <child name="del"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="st"/>
+   <tag name="kwd">
+      <child name="ins"/>
+      <child name="del"/>
+   </tag>
+   <tag name="authorcontribution">
+      <child name="xref"/>
+      <child name="x"/>
+      <child name="con-role-group"/>
+   </tag>
+   <tag name="con-role-group">
+      <child name="con-concept"/>
+      <child name="x"/>
+   </tag>
+   <tag name="con-concept"/>
+   <tag name="body">
+      <child name="seca"/>
+   </tag>
+   <tag name="seca">
+      <child name="sectitle"/>
+      <child name="paragraph"/>
+      <child name="secb"/>
+   </tag>
+   <tag name="sectitle">
+      <child name="ins"/>
+      <child name="query"/>
+      <child name="linenumber"/>
+      <child name="del"/>
+      <child name="role"/>
+   </tag>
+   <tag name="paragraph">
+      <child name="query"/>
+      <child name="del"/>
+      <child name="ins"/>
+      <child name="xref"/>
+      <child name="linenumber"/>
+      <child name="sup"/>
+      <child name="citation"/>
+   </tag>
+   <tag name="i"/>
+   <tag name="citation"/>
+   <tag name="secb">
+      <child name="sectitle"/>
+      <child name="paragraph"/>
+   </tag>
+   <tag name="role"/>
+   <tag name="tail">
+      <child name="ack"/>
+      <child name="bibreference"/>
+      <child name="fn"/>
+   </tag>
+   <tag name="ack">
+      <child name="acknowledgements"/>
+   </tag>
+   <tag name="acknowledgements">
+      <child name="linenumber"/>
+   </tag>
+   <tag name="bibreference">
+      <child name="references"/>
+      <child name="bibliography-sec"/>
+   </tag>
+   <tag name="references">
+      <child name="linenumber"/>
+   </tag>
+   <tag name="bibliography-sec">
+      <child name="bib-reference"/>
+   </tag>
+   <tag name="bib-reference">
+      <child name="label"/>
+      <child name="x"/>
+      <child name="journal"/>
+      <child name="e-host"/>
+      <child name="book"/>
+      <child name="other-ref"/>
+   </tag>
+   <tag name="journal">
+      <child name="aus"/>
+      <child name="x"/>
+      <child name="adate"/>
+      <child name="atl"/>
+      <child name="stl"/>
+      <child name="vol"/>
+      <child name="first-page"/>
+      <child name="doi"/>
+      <child name="linenumber"/>
+      <child name="last-page"/>
+   </tag>
+   <tag name="aus">
+      <child name="au"/>
+      <child name="x"/>
+   </tag>
+   <tag name="et-al"/>
+   <tag name="adate"/>
+   <tag name="atl"/>
+   <tag name="stl"/>
+   <tag name="first-page"/>
+   <tag name="e-host">
+      <child name="x"/>
+      <child name="aus"/>
+      <child name="adate"/>
+      <child name="atl"/>
+      <child name="msc3"/>
+      <child name="url"/>
+      <child name="msc"/>
+      <child name="query"/>
+   </tag>
+   <tag name="msc3"/>
+   <tag name="msc"/>
+   <tag name="last-page"/>
+   <tag name="book">
+      <child name="aus"/>
+      <child name="x"/>
+      <child name="adate"/>
+      <child name="btl"/>
+      <child name="doi"/>
+      <child name="query"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="btl"/>
+   <tag name="other-ref">
+      <child name="aus"/>
+      <child name="x"/>
+      <child name="atl"/>
+      <child name="conf-name"/>
+      <child name="conf-loc"/>
+      <child name="conf-date"/>
+      <child name="first-page"/>
+      <child name="last-page"/>
+      <child name="role"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="conf-name"/>
+   <tag name="conf-loc"/>
+   <tag name="conf-date"/>
+   <tag name="fn">
+      <child name="label"/>
+      <child name="text"/>
+   </tag>
+   <files>
+      <file jid="FBINF" aid="2023"/>
+   </files>
+</root><root>
+   <tag name="article">
+      <child name="meta"/>
+      <child name="head"/>
+      <child name="body"/>
+      <child name="tail"/>
+   </tag>
+   <tag name="meta">
+      <child name="jid"/>
+      <child name="aid"/>
+      <child name="pit"/>
+      <child name="doi"/>
+      <child name="vol"/>
+      <child name="subject"/>
+      <child name="received"/>
+      <child name="accept"/>
+      <child name="conversion"/>
+      <child name="customer"/>
+   </tag>
+   <tag name="jid"/>
+   <tag name="aid"/>
+   <tag name="pit"/>
+   <tag name="doi"/>
+   <tag name="vol"/>
+   <tag name="subject"/>
+   <tag name="received"/>
+   <tag name="accept"/>
+   <tag name="conversion"/>
+   <tag name="customer"/>
+   <tag name="head">
+      <child name="lrh"/>
+      <child name="rrh"/>
+      <child name="articletitle"/>
+      <child name="aug"/>
+      <child name="abs"/>
+      <child name="keywordsdefault"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="lrh">
+      <child name="query"/>
+   </tag>
+   <tag name="query">
+      <child name="linenumber"/>
+      <child name="url"/>
+   </tag>
+   <tag name="linenumber"/>
+   <tag name="rrh">
+      <child name="query"/>
+   </tag>
+   <tag name="url"/>
+   <tag name="articletitle">
+      <child name="i"/>
+      <child name="query"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="i"/>
+   <tag name="aug">
+      <child name="authors"/>
+      <child name="aff"/>
+      <child name="cor"/>
+      <child name="fneditedby"/>
+      <child name="fnother"/>
+   </tag>
+   <tag name="authors">
+      <child name="au"/>
+      <child name="x"/>
+      <child name="query"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="au">
+      <child name="fnm"/>
+      <child name="x"/>
+      <child name="snm"/>
+      <child name="sup"/>
+      <child name="xref"/>
+      <child name="et-al"/>
+   </tag>
+   <tag name="fnm"/>
+   <tag name="x">
+      <child name="sup"/>
+   </tag>
+   <tag name="snm"/>
+   <tag name="sup">
+      <child name="xref"/>
+   </tag>
+   <tag name="xref">
+      <child name="sup"/>
+   </tag>
+   <tag name="aff">
+      <child name="label"/>
+      <child name="text"/>
+   </tag>
+   <tag name="label">
+      <child name="sup"/>
+   </tag>
+   <tag name="text">
+      <child name="affnorg"/>
+      <child name="x"/>
+      <child name="affncity"/>
+      <child name="affncountry"/>
+      <child name="query"/>
+      <child name="linenumber"/>
+      <child name="e-address"/>
+      <child name="i"/>
+      <child name="b"/>
+   </tag>
+   <tag name="affnorg"/>
+   <tag name="affncity"/>
+   <tag name="affncountry"/>
+   <tag name="cor">
+      <child name="label"/>
+      <child name="text"/>
+   </tag>
+   <tag name="e-address"/>
+   <tag name="fneditedby">
+      <child name="b"/>
+      <child name="url"/>
+      <child name="linenumber"/>
+      <child name="br"/>
+   </tag>
+   <tag name="b"/>
+   <tag name="br"/>
+   <tag name="fnother">
+      <child name="p"/>
+   </tag>
+   <tag name="p">
+      <child name="linenumber"/>
+      <child name="sup"/>
+      <child name="text-color"/>
+      <child name="i"/>
+   </tag>
+   <tag name="abs">
+      <child name="abstract-sec"/>
+   </tag>
+   <tag name="abstract-sec">
+      <child name="simple-para"/>
+   </tag>
+   <tag name="simple-para">
+      <child name="linenumber"/>
+   </tag>
+   <tag name="keywordsdefault">
+      <child name="st"/>
+      <child name="x"/>
+      <child name="kwd"/>
+      <child name="query"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="st"/>
+   <tag name="kwd"/>
+   <tag name="body">
+      <child name="seca"/>
+   </tag>
+   <tag name="seca">
+      <child name="sectitle"/>
+      <child name="paragraph"/>
+      <child name="secb"/>
+   </tag>
+   <tag name="sectitle">
+      <child name="no"/>
+      <child name="x"/>
+      <child name="query"/>
+      <child name="linenumber"/>
+      <child name="i"/>
+      <child name="role"/>
+   </tag>
+   <tag name="no"/>
+   <tag name="paragraph">
+      <child name="xref"/>
+      <child name="linenumber"/>
+      <child name="i"/>
+      <child name="citation"/>
+      <child name="sub"/>
+      <child name="u"/>
+      <child name="query"/>
+      <child name="sup"/>
+      <child name="url"/>
+   </tag>
+   <tag name="citation"/>
+   <tag name="secb">
+      <child name="sectitle"/>
+      <child name="paragraph"/>
+      <child name="displaymath"/>
+   </tag>
+   <tag name="sub"/>
+   <tag name="u"/>
+   <tag name="displaymath">
+      <child name="math"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="math">
+      <child name="mrow"/>
+   </tag>
+   <tag name="mrow">
+      <child name="mo"/>
+      <child name="mi"/>
+      <child name="mtext"/>
+      <child name="mfrac"/>
+      <child name="mn"/>
+   </tag>
+   <tag name="mo"/>
+   <tag name="mi"/>
+   <tag name="mtext"/>
+   <tag name="mfrac">
+      <child name="mrow"/>
+   </tag>
+   <tag name="mn"/>
+   <tag name="role"/>
+   <tag name="tail">
+      <child name="bibreference"/>
+      <child name="tablegroup"/>
+      <child name="figuregroup"/>
+   </tag>
+   <tag name="bibreference">
+      <child name="references"/>
+      <child name="bibliography-sec"/>
+   </tag>
+   <tag name="references">
+      <child name="linenumber"/>
+   </tag>
+   <tag name="bibliography-sec">
+      <child name="bib-reference"/>
+   </tag>
+   <tag name="bib-reference">
+      <child name="label"/>
+      <child name="x"/>
+      <child name="journal"/>
+   </tag>
+   <tag name="journal">
+      <child name="aus"/>
+      <child name="x"/>
+      <child name="adate"/>
+      <child name="atl"/>
+      <child name="stl"/>
+      <child name="vol"/>
+      <child name="iss"/>
+      <child name="first-page"/>
+      <child name="last-page"/>
+      <child name="doi"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="aus">
+      <child name="au"/>
+      <child name="x"/>
+   </tag>
+   <tag name="et-al"/>
+   <tag name="adate"/>
+   <tag name="atl">
+      <child name="i"/>
+   </tag>
+   <tag name="stl"/>
+   <tag name="iss"/>
+   <tag name="first-page"/>
+   <tag name="last-page"/>
+   <tag name="tablegroup">
+      <child name="tablecaption"/>
+      <child name="table"/>
+   </tag>
+   <tag name="tablecaption">
+      <child name="label"/>
+      <child name="x"/>
+      <child name="text"/>
+   </tag>
+   <tag name="table">
+      <child name="colgroup"/>
+      <child name="thead"/>
+      <child name="tbody"/>
+   </tag>
+   <tag name="colgroup">
+      <child name="col"/>
+   </tag>
+   <tag name="col"/>
+   <tag name="thead">
+      <child name="tr"/>
+   </tag>
+   <tag name="tr">
+      <child name="td"/>
+   </tag>
+   <tag name="td">
+      <child name="p"/>
+      <child name="text-color"/>
+   </tag>
+   <tag name="text-color">
+      <child name="sup"/>
+   </tag>
+   <tag name="tbody">
+      <child name="tr"/>
+   </tag>
+   <tag name="figuregroup">
+      <child name="figcaption"/>
+      <child name="link"/>
+   </tag>
+   <tag name="figcaption">
+      <child name="label"/>
+      <child name="x"/>
+      <child name="text"/>
+   </tag>
+   <tag name="link"/>
+   <files>
+      <file jid="FBIOE" aid="2022"/>
+   </files>
+</root><root>
+   <tag name="article">
+      <child name="meta"/>
+      <child name="head"/>
+      <child name="body"/>
+      <child name="tail"/>
+   </tag>
+   <tag name="meta">
+      <child name="jid"/>
+      <child name="aid"/>
+      <child name="pit"/>
+      <child name="doi"/>
+      <child name="vol"/>
+      <child name="subject"/>
+      <child name="received"/>
+      <child name="accept"/>
+      <child name="conversion"/>
+      <child name="customer"/>
+   </tag>
+   <tag name="jid"/>
+   <tag name="aid"/>
+   <tag name="pit"/>
+   <tag name="doi"/>
+   <tag name="vol"/>
+   <tag name="subject"/>
+   <tag name="received"/>
+   <tag name="accept"/>
+   <tag name="conversion"/>
+   <tag name="customer"/>
+   <tag name="head">
+      <child name="lrh"/>
+      <child name="rrh"/>
+      <child name="articletitle"/>
+      <child name="aug"/>
+      <child name="abs"/>
+      <child name="keywordsdefault"/>
+      <child name="funding-group"/>
+   </tag>
+   <tag name="lrh">
+      <child name="query"/>
+   </tag>
+   <tag name="query">
+      <child name="linenumber"/>
+      <child name="url"/>
+   </tag>
+   <tag name="linenumber"/>
+   <tag name="rrh">
+      <child name="query"/>
+   </tag>
+   <tag name="url"/>
+   <tag name="articletitle">
+      <child name="query"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="aug">
+      <child name="authors"/>
+      <child name="aff"/>
+      <child name="cor"/>
+      <child name="fnequal"/>
+      <child name="fneditedby"/>
+      <child name="fnother"/>
+   </tag>
+   <tag name="authors">
+      <child name="au"/>
+      <child name="x"/>
+      <child name="query"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="au">
+      <child name="fnm"/>
+      <child name="x"/>
+      <child name="snm"/>
+      <child name="sup"/>
+      <child name="xref"/>
+      <child name="et-al"/>
+   </tag>
+   <tag name="fnm"/>
+   <tag name="x">
+      <child name="sup"/>
+   </tag>
+   <tag name="snm"/>
+   <tag name="sup">
+      <child name="xref"/>
+      <child name="i"/>
+   </tag>
+   <tag name="xref">
+      <child name="sup"/>
+   </tag>
+   <tag name="aff">
+      <child name="label"/>
+      <child name="text"/>
+   </tag>
+   <tag name="label">
+      <child name="sup"/>
+   </tag>
+   <tag name="text">
+      <child name="affnorg"/>
+      <child name="x"/>
+      <child name="affncity"/>
+      <child name="affncountry"/>
+      <child name="query"/>
+      <child name="linenumber"/>
+      <child name="e-address"/>
+      <child name="b"/>
+      <child name="math"/>
+      <child name="i"/>
+      <child name="sub"/>
+      <child name="sup"/>
+      <child name="xref"/>
+   </tag>
+   <tag name="affnorg"/>
+   <tag name="affncity"/>
+   <tag name="affncountry"/>
+   <tag name="cor">
+      <child name="label"/>
+      <child name="text"/>
+   </tag>
+   <tag name="e-address"/>
+   <tag name="fnequal">
+      <child name="label"/>
+      <child name="p"/>
+   </tag>
+   <tag name="p">
+      <child name="linenumber"/>
+      <child name="sup"/>
+      <child name="i"/>
+      <child name="sub"/>
+      <child name="math"/>
+   </tag>
+   <tag name="fneditedby">
+      <child name="b"/>
+      <child name="url"/>
+      <child name="linenumber"/>
+      <child name="br"/>
+   </tag>
+   <tag name="b"/>
+   <tag name="br"/>
+   <tag name="fnother">
+      <child name="p"/>
+   </tag>
+   <tag name="abs">
+      <child name="abstract-sec"/>
+   </tag>
+   <tag name="abstract-sec">
+      <child name="simple-para"/>
+      <child name="text"/>
+   </tag>
+   <tag name="simple-para">
+      <child name="b"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="keywordsdefault">
+      <child name="st"/>
+      <child name="x"/>
+      <child name="kwd"/>
+      <child name="query"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="st"/>
+   <tag name="kwd"/>
+   <tag name="funding-group">
+      <child name="award-group"/>
+   </tag>
+   <tag name="award-group">
+      <child name="awardrecipient"/>
+      <child name="x"/>
+      <child name="fundsource"/>
+      <child name="awardid"/>
+      <child name="br"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="awardrecipient"/>
+   <tag name="fundsource"/>
+   <tag name="awardid"/>
+   <tag name="body">
+      <child name="seca"/>
+   </tag>
+   <tag name="seca">
+      <child name="sectitle"/>
+      <child name="paragraph"/>
+      <child name="secb"/>
+   </tag>
+   <tag name="sectitle">
+      <child name="query"/>
+      <child name="linenumber"/>
+      <child name="role"/>
+   </tag>
+   <tag name="paragraph">
+      <child name="xref"/>
+      <child name="linenumber"/>
+      <child name="citation"/>
+      <child name="query"/>
+      <child name="i"/>
+      <child name="sub"/>
+      <child name="sup"/>
+      <child name="url"/>
+   </tag>
+   <tag name="citation"/>
+   <tag name="i"/>
+   <tag name="secb">
+      <child name="sectitle"/>
+      <child name="paragraph"/>
+      <child name="displaymath"/>
+      <child name="paranoindent"/>
+   </tag>
+   <tag name="sub">
+      <child name="i"/>
+   </tag>
+   <tag name="displaymath">
+      <child name="math"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="math">
+      <child name="mrow"/>
+   </tag>
+   <tag name="mrow">
+      <child name="mi"/>
+      <child name="mo"/>
+      <child name="mfrac"/>
+      <child name="mn"/>
+      <child name="msup"/>
+      <child name="msub"/>
+      <child name="mtext"/>
+   </tag>
+   <tag name="mi"/>
+   <tag name="mo"/>
+   <tag name="mfrac">
+      <child name="mrow"/>
+   </tag>
+   <tag name="mn"/>
+   <tag name="paranoindent">
+      <child name="i"/>
+      <child name="linenumber"/>
+      <child name="sub"/>
+      <child name="xref"/>
+      <child name="citation"/>
+      <child name="query"/>
+   </tag>
+   <tag name="msup">
+      <child name="msub"/>
+      <child name="mo"/>
+      <child name="mi"/>
+      <child name="mn"/>
+   </tag>
+   <tag name="msub">
+      <child name="mi"/>
+      <child name="mrow"/>
+   </tag>
+   <tag name="mtext"/>
+   <tag name="role"/>
+   <tag name="tail">
+      <child name="bibreference"/>
+      <child name="figuregroup"/>
+      <child name="tablegroup"/>
+   </tag>
+   <tag name="bibreference">
+      <child name="references"/>
+      <child name="bibliography-sec"/>
+   </tag>
+   <tag name="references">
+      <child name="linenumber"/>
+   </tag>
+   <tag name="bibliography-sec">
+      <child name="bib-reference"/>
+   </tag>
+   <tag name="bib-reference">
+      <child name="label"/>
+      <child name="x"/>
+      <child name="journal"/>
+   </tag>
+   <tag name="journal">
+      <child name="aus"/>
+      <child name="x"/>
+      <child name="adate"/>
+      <child name="atl"/>
+      <child name="stl"/>
+      <child name="vol"/>
+      <child name="first-page"/>
+      <child name="last-page"/>
+      <child name="doi"/>
+      <child name="linenumber"/>
+      <child name="iss"/>
+      <child name="query"/>
+   </tag>
+   <tag name="aus">
+      <child name="au"/>
+      <child name="x"/>
+   </tag>
+   <tag name="adate"/>
+   <tag name="atl"/>
+   <tag name="stl"/>
+   <tag name="first-page"/>
+   <tag name="last-page"/>
+   <tag name="iss"/>
+   <tag name="et-al"/>
+   <tag name="figuregroup">
+      <child name="figcaption"/>
+      <child name="link"/>
+   </tag>
+   <tag name="figcaption">
+      <child name="label"/>
+      <child name="x"/>
+      <child name="text"/>
+   </tag>
+   <tag name="link"/>
+   <tag name="tablegroup">
+      <child name="tablecaption"/>
+      <child name="table"/>
+   </tag>
+   <tag name="tablecaption">
+      <child name="label"/>
+      <child name="x"/>
+      <child name="text"/>
+   </tag>
+   <tag name="table">
+      <child name="colgroup"/>
+      <child name="thead"/>
+      <child name="tbody"/>
+   </tag>
+   <tag name="colgroup">
+      <child name="col"/>
+   </tag>
+   <tag name="col"/>
+   <tag name="thead">
+      <child name="tr"/>
+   </tag>
+   <tag name="tr">
+      <child name="td"/>
+   </tag>
+   <tag name="td">
+      <child name="p"/>
+   </tag>
+   <tag name="tbody">
+      <child name="tr"/>
+   </tag>
+   <files>
+      <file jid="FBIOE" aid="2022"/>
+   </files>
+</root><root>
+   <tag name="article">
+      <child name="meta"/>
+      <child name="head"/>
+      <child name="body"/>
+      <child name="tail"/>
+   </tag>
+   <tag name="meta">
+      <child name="jid"/>
+      <child name="aid"/>
+      <child name="pit"/>
+      <child name="doi"/>
+      <child name="vol"/>
+      <child name="subject"/>
+      <child name="received"/>
+      <child name="accept"/>
+      <child name="conversion"/>
+      <child name="customer"/>
+   </tag>
+   <tag name="jid"/>
+   <tag name="aid"/>
+   <tag name="pit"/>
+   <tag name="doi"/>
+   <tag name="vol"/>
+   <tag name="subject"/>
+   <tag name="received"/>
+   <tag name="accept"/>
+   <tag name="conversion"/>
+   <tag name="customer"/>
+   <tag name="head">
+      <child name="lrh"/>
+      <child name="rrh"/>
+      <child name="articletitle"/>
+      <child name="aug"/>
+      <child name="abs"/>
+      <child name="keywordsdefault"/>
+      <child name="funding-group"/>
+   </tag>
+   <tag name="lrh">
+      <child name="query"/>
+   </tag>
+   <tag name="query">
+      <child name="linenumber"/>
+      <child name="url"/>
+   </tag>
+   <tag name="linenumber"/>
+   <tag name="rrh">
+      <child name="query"/>
+   </tag>
+   <tag name="url"/>
+   <tag name="articletitle">
+      <child name="i"/>
+      <child name="query"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="i"/>
+   <tag name="aug">
+      <child name="authors"/>
+      <child name="aff"/>
+      <child name="cor"/>
+      <child name="fneditedby"/>
+      <child name="fnother"/>
+   </tag>
+   <tag name="authors">
+      <child name="au"/>
+      <child name="x"/>
+      <child name="query"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="au">
+      <child name="fnm"/>
+      <child name="x"/>
+      <child name="snm"/>
+      <child name="sup"/>
+      <child name="xref"/>
+      <child name="et-al"/>
+   </tag>
+   <tag name="fnm"/>
+   <tag name="x">
+      <child name="sup"/>
+   </tag>
+   <tag name="snm"/>
+   <tag name="sup">
+      <child name="xref"/>
+   </tag>
+   <tag name="xref">
+      <child name="sup"/>
+   </tag>
+   <tag name="aff">
+      <child name="label"/>
+      <child name="text"/>
+   </tag>
+   <tag name="label">
+      <child name="sup"/>
+   </tag>
+   <tag name="text">
+      <child name="affnorg"/>
+      <child name="x"/>
+      <child name="affncity"/>
+      <child name="affncountry"/>
+      <child name="query"/>
+      <child name="linenumber"/>
+      <child name="e-address"/>
+      <child name="b"/>
+      <child name="i"/>
+   </tag>
+   <tag name="affnorg"/>
+   <tag name="affncity"/>
+   <tag name="affncountry"/>
+   <tag name="cor">
+      <child name="label"/>
+      <child name="text"/>
+   </tag>
+   <tag name="e-address"/>
+   <tag name="fneditedby">
+      <child name="b"/>
+      <child name="url"/>
+      <child name="linenumber"/>
+      <child name="br"/>
+   </tag>
+   <tag name="b"/>
+   <tag name="br"/>
+   <tag name="fnother">
+      <child name="p"/>
+   </tag>
+   <tag name="p">
+      <child name="linenumber"/>
+   </tag>
+   <tag name="abs">
+      <child name="abstract-sec"/>
+   </tag>
+   <tag name="abstract-sec">
+      <child name="simple-para"/>
+   </tag>
+   <tag name="simple-para">
+      <child name="i"/>
+      <child name="sub"/>
+      <child name="sup"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="sub"/>
+   <tag name="keywordsdefault">
+      <child name="st"/>
+      <child name="x"/>
+      <child name="kwd"/>
+      <child name="query"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="st"/>
+   <tag name="kwd"/>
+   <tag name="funding-group">
+      <child name="award-group"/>
+   </tag>
+   <tag name="award-group">
+      <child name="awardrecipient"/>
+      <child name="x"/>
+      <child name="fundsource"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="awardrecipient"/>
+   <tag name="fundsource"/>
+   <tag name="body">
+      <child name="seca"/>
+   </tag>
+   <tag name="seca">
+      <child name="sectitle"/>
+      <child name="paragraph"/>
+      <child name="secb"/>
+      <child name="displaymath"/>
+   </tag>
+   <tag name="sectitle">
+      <child name="no"/>
+      <child name="x"/>
+      <child name="query"/>
+      <child name="linenumber"/>
+      <child name="role"/>
+   </tag>
+   <tag name="no"/>
+   <tag name="paragraph">
+      <child name="xref"/>
+      <child name="linenumber"/>
+      <child name="i"/>
+      <child name="sub"/>
+      <child name="sup"/>
+      <child name="citation"/>
+      <child name="query"/>
+      <child name="url"/>
+   </tag>
+   <tag name="secb">
+      <child name="sectitle"/>
+      <child name="paragraph"/>
+      <child name="secc"/>
+   </tag>
+   <tag name="secc">
+      <child name="sectitle"/>
+      <child name="paragraph"/>
+   </tag>
+   <tag name="citation"/>
+   <tag name="displaymath">
+      <child name="math"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="math">
+      <child name="mrow"/>
+   </tag>
+   <tag name="mrow">
+      <child name="mn"/>
+      <child name="msup"/>
+      <child name="mo"/>
+      <child name="msub"/>
+      <child name="mi"/>
+      <child name="mrow"/>
+   </tag>
+   <tag name="mn"/>
+   <tag name="msup">
+      <child name="mrow"/>
+      <child name="mo"/>
+   </tag>
+   <tag name="mi"/>
+   <tag name="mo"/>
+   <tag name="msub">
+      <child name="mi"/>
+      <child name="mrow"/>
+   </tag>
+   <tag name="role"/>
+   <tag name="tail">
+      <child name="ack"/>
+      <child name="bibreference"/>
+      <child name="figuregroup"/>
+      <child name="tablegroup"/>
+   </tag>
+   <tag name="ack">
+      <child name="acknowledgements"/>
+   </tag>
+   <tag name="acknowledgements">
+      <child name="url"/>
+      <child name="linenumber"/>
+   </tag>
+   <tag name="bibreference">
+      <child name="references"/>
+      <child name="bibliography-sec"/>
+   </tag>
+   <tag name="references">
+      <child name="linenumber"/>
+   </tag>
+   <tag name="bibliography-sec">
+      <child name="bib-reference"/>
+   </tag>
+   <tag name="bib-reference">
+      <child name="label"/>
+      <child name="x"/>
+      <child name="journal"/>
+      <child name="book"/>
+   </tag>
+   <tag name="journal">
+      <child name="aus"/>
+      <child name="x"/>
+      <child name="adate"/>
+      <child name="atl"/>
+      <child name="stl"/>
+      <child name="vol"/>
+      <child name="iss"/>
+      <child name="first-page"/>
+      <child name="doi"/>
+      <child name="linenumber"/>
+      <child name="last-page"/>
+   </tag>
+   <tag name="aus">
+      <child name="au"/>
+      <child name="x"/>
+   </tag>
+   <tag name="et-al"/>
+   <tag name="adate"/>
+   <tag name="atl">
+      <child name="i"/>
+   </tag>
+   <tag name="stl"/>
+   <tag name="iss"/>
+   <tag name="first-page"/>
+   <tag name="last-page"/>
+   <tag name="book">
+      <child name="aus"/>
+      <child name="x"/>
+      <child name="adate"/>
+      <child name="btl"/>
+      <child name="city"/>
+      <child name="pub"/>
+      <child name="linenumber"/>
+      <child name="msc3"/>
+      <child name="query"/>
+   </tag>
+   <tag name="btl"/>
+   <tag name="city"/>
+   <tag name="pub"/>
+   <tag name="msc3">
+      <child name="url"/>
+   </tag>
+   <tag name="figuregroup">
+      <child name="figcaption"/>
+      <child name="link"/>
+   </tag>
+   <tag name="figcaption">
+      <child name="label"/>
+      <child name="x"/>
+      <child name="text"/>
+   </tag>
+   <tag name="link"/>
+   <tag name="tablegroup">
+      <child name="tablecaption"/>
+      <child name="table"/>
+   </tag>
+   <tag name="tablecaption">
+      <child name="label"/>
+      <child name="x"/>
+      <child name="text"/>
+   </tag>
+   <tag name="table">
+      <child name="colgroup"/>
+      <child name="thead"/>
+      <child name="tbody"/>
+   </tag>
+   <tag name="colgroup">
+      <child name="col"/>
+   </tag>
+   <tag name="col"/>
+   <tag name="thead">
+      <child name="tr"/>
+   </tag>
+   <tag name="tr">
+      <child name="td"/>
+   </tag>
+   <tag name="td">
+      <child name="p"/>
+      <child name="text-color"/>
+   </tag>
+   <tag name="tbody">
+      <child name="tr"/>
+   </tag>
+   <tag name="text-color"/>
+   <files>
+      <file jid="FBIOE" aid="2022"/>
+   </files>
+</root></root>
