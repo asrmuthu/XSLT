@@ -1,0 +1,111 @@
+	XSLT TEST 
+
+Create a table using XSLT to display the details of employees. 
+Table Header must contain the titles: Employee Name, Designation, Date of Joining, Address and Salary. Display the Details of these titles inside the table body.
+Display the details of Employees with Designation= “Technical Writer”
+Display the details of Employees with Salary greater than 5LPA and less than 7LPA.
+Display only Employee Name, Designation, and Date of Joining Details in Table.
+Table design to as below:
+Table Header: Title to be center aligned with background-colour: #D6EFED
+All Table borders to be 1pt with border color: #D8D9DA
+Table Font Size to be 12pt
+
+Use the following XML data added below to create an Employee Table using XSLT.
+
+<?xml version="1.0" encoding="UTF-8"?>
+ <catalog>
+ 	<EmployeeDetails>
+     	   <EmployeeName>Smita Joshi</EmployeeName>
+     	   <Designation>Software Developer</Designation>
+     	   <DateofJoining>09 July 2018</DateofJoining>
+     	    <Address>Pune, Maharashtra</Address>
+     	    <salary>5LPA</salary>
+ 	</EmployeeDetails>
+
+	<EmployeeDetails>
+     	   <EmployeeName>John Thomas</EmployeeName>
+     	   <Designation>Technical Writer</Designation>
+     	   <DateofJoining>23 November 2016</DateofJoining>
+     	   <Address>Banglore, Karnataka</Address>
+     	   <salary>4.5LPA</salary>
+ 	</EmployeeDetails>
+
+	<EmployeeDetails>
+     	    <EmployeeName>Ashish Metha</EmployeeName>
+     	    <Designation>Marketing Manager</Designation>
+     	    <DateofJoining>11 June 2013</DateofJoining>
+     	    <Address>Satara, Maharashtra</Address>
+     	     <salary>7LPA</salary>
+ 	</EmployeeDetails>
+
+	<EmployeeDetails>
+     	 <EmployeeName>Neha Kulkarni</EmployeeName>
+     	 <Designation>Junior Software Developer</Designation>
+     	 <DateofJoining>25 October 2022</DateofJoining>
+     	 <Address>Pune, Maharashtra</Address>
+     	 <salary>3.5LPA</salary>
+ 	</EmployeeDetails>
+
+	<EmployeeDetails>
+     	 <EmployeeName>Reyansh Jain</EmployeeName>
+     	 <Designation>Technical Writer</Designation>
+     	 <DateofJoining>21 April 2016</DateofJoining>
+     	 <Address>Pune, Maharashtra</Address>
+     	 <salary>5.5LPA</salary>
+ 	</EmployeeDetails>
+
+	<EmployeeDetails>
+     	 <EmployeeName>Jeenal Oswal</EmployeeName>
+     	 <Designation>Junior HR</Designation>
+     	 <DateofJoining>24 April 2023</DateofJoining>
+     	 <Address>Solapur, Maharashtra</Address>
+     	 <salary>4LPA</salary>
+ 	</EmployeeDetails>
+
+	<EmployeeDetails>
+     	 <EmployeeName>Mohit Shah</EmployeeName>
+     	 <Designation>Marketing Lead</Designation>
+     	 <DateofJoining>09 March 2018</DateofJoining>
+     	 <Address>Pune, Maharashtra</Address>
+     	 <salary>6LPA</salary>
+ 	</EmployeeDetails>
+ </catalog>
+
+
+2. Convert Tag <p> to <paragraph> below xml example using XSLT templates:
+<?xml version="1.0" encoding="UTF-8"?>
+ <catalog>
+<p>This is paragraph not p.</p>
+</catalog>
+ 
+
+
+Result should be:
+
+ <?xml version="1.0" encoding="UTF-8"?>
+ <catalog>
+<paragraph>This is paragraph not p.</paragraph>
+</catalog>
+
+3. Covert Tag <p id="para001"> to <paragraph id="para001"> below xml example using xslt templates:
+<?xml version="1.0" encoding="UTF-8"?>
+ <catalog>
+<p id="para001">This is paragraph not p.</p>
+<p id="para002">This is paragraph not p.</p>
+<p id="para003">This is paragraph not p.</p>
+</catalog>
+ 
+The result should be:
+
+ <?xml version="1.0" encoding="UTF-8"?>
+ <catalog>
+<paragraph id="para001">This is paragraph not p.</paragraph>
+<paragraph id="para002">This is paragraph not p.</paragraph>
+<paragraph id="para003">This is paragraph not p.</paragraph>
+</catalog>
+
+
+To test this document you can use W3school Editor
+W3school Editor link: https://www.w3schools.com/xml/tryxslt.asp?xmlfile=cdcatalog&xsltfile=cdcatalog
+
+

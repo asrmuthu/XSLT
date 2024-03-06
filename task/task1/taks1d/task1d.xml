@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <EmployeeDetails>
+        <EmployeeName>Smita Joshi</EmployeeName>
+        <Designation>Software Developer</Designation>
+        <DateofJoining>09 July 2018</DateofJoining>
+        <Address>Pune, Maharashtra</Address>
+        <salary>5LPA</salary>
+    </EmployeeDetails>
+    
+    <EmployeeDetails>
+        <EmployeeName>John Thomas</EmployeeName>
+        <Designation>Technical Writer</Designation>
+        <DateofJoining>23 November 2016</DateofJoining>
+        <Address>Banglore, Karnataka</Address>
+        <salary>4.5LPA</salary>
+    </EmployeeDetails>
+    
+    <EmployeeDetails>
+        <EmployeeName>Ashish Metha</EmployeeName>
+        <Designation>Marketing Manager</Designation>
+        <DateofJoining>11 June 2013</DateofJoining>
+        <Address>Satara, Maharashtra</Address>
+        <salary>7LPA</salary>
+    </EmployeeDetails>
+    
+    <EmployeeDetails>
+        <EmployeeName>Neha Kulkarni</EmployeeName>
+        <Designation>Junior Software Developer</Designation>
+        <DateofJoining>25 October 2022</DateofJoining>
+        <Address>Pune, Maharashtra</Address>
+        <salary>3.5LPA</salary>
+    </EmployeeDetails>
+    
+    <EmployeeDetails>
+        <EmployeeName>Reyansh Jain</EmployeeName>
+        <Designation>Technical Writer</Designation>
+        <DateofJoining>21 April 2016</DateofJoining>
+        <Address>Pune, Maharashtra</Address>
+        <salary>5.5LPA</salary>
+    </EmployeeDetails>
+    
+    <EmployeeDetails>
+        <EmployeeName>Jeenal Oswal</EmployeeName>
+        <Designation>Junior HR</Designation>
+        <DateofJoining>24 April 2023</DateofJoining>
+        <Address>Solapur, Maharashtra</Address>
+        <salary>4LPA</salary>
+    </EmployeeDetails>
+    
+    <EmployeeDetails>
+        <EmployeeName>Mohit Shah</EmployeeName>
+        <Designation>Marketing Lead</Designation>
+        <DateofJoining>09 March 2018</DateofJoining>
+        <Address>Pune, Maharashtra</Address>
+        <salary>6LPA</salary>
+    </EmployeeDetails>
+</catalog>

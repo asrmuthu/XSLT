@@ -1,0 +1,63 @@
+<html>
+   <body>
+      <h2>My CD Collection</h2>
+      <table border="1">
+         <tr bgcolor="#9acd32">
+            <th style="text-align:left">Employee Name</th>
+            <th style="text-align:left">Designation</th>
+            <th style="text-align:left">Date of Joining</th>
+            <th style="text-align:left">Address</th>
+            <th style="text-align:left">Salary</th>
+         </tr>
+         <tr>
+            <td>Smita Joshi</td>
+            <td>Software Developer</td>
+            <td>09 July 2018</td>
+            <td>Pune, Maharashtra</td>
+            <td>5LPA</td>
+         </tr>
+         <tr>
+            <td>John Thomas</td>
+            <td>Technical Writer</td>
+            <td>23 November 2016</td>
+            <td>Banglore, Karnataka</td>
+            <td>4.5LPA</td>
+         </tr>
+         <tr>
+            <td>Ashish Metha</td>
+            <td>Marketing Manager</td>
+            <td>11 June 2013</td>
+            <td>Satara, Maharashtra</td>
+            <td>7LPA</td>
+         </tr>
+         <tr>
+            <td>Neha Kulkarni</td>
+            <td>Junior Software Developer</td>
+            <td>25 October 2022</td>
+            <td>Pune, Maharashtra</td>
+            <td>3.5LPA</td>
+         </tr>
+         <tr>
+            <td>Reyansh Jain</td>
+            <td>Technical Writer</td>
+            <td>21 April 2016</td>
+            <td>Pune, Maharashtra</td>
+            <td>5.5LPA</td>
+         </tr>
+         <tr>
+            <td>Jeenal Oswal</td>
+            <td>Junior HR</td>
+            <td>24 April 2023</td>
+            <td>Solapur, Maharashtra</td>
+            <td>4LPA</td>
+         </tr>
+         <tr>
+            <td>Mohit Shah</td>
+            <td>Marketing Lead</td>
+            <td>09 March 2018</td>
+            <td>Pune, Maharashtra</td>
+            <td>6LPA</td>
+         </tr>
+      </table>
+   </body>
+</html>
