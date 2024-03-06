@@ -1,0 +1,1 @@
+java -jar /tnq/in-workflow/app/Tnq/InWorkflow/lib/xml-transformation/bin/jar/saxon8.jar -o /tnq/local/run/output.xml /tnq/local/run/input.xml /tnq/local/run/test.xsl
